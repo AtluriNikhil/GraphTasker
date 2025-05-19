@@ -1,0 +1,9 @@
+add_task A "echo A" 0 0
+add_task B "echo B" 0 0
+add_task A "should fail" 0 0
+add_dep A B
+add_dep B A
+show tasks
+show deps
+run 1
+exit
