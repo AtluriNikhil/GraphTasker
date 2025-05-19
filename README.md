@@ -3,7 +3,8 @@
 [![Build Status](https://img.shields.io/badge/build-passing-brightgreen)](#)  
 [![License](https://img.shields.io/badge/license-MIT-blue)](LICENSE)
 
-A lightweight, POSIX-compliant concurrent task scheduler with DAG-based dependency management and a simple shell interface.
+Graph Tasker is a lightweight, POSIX-compliant concurrent task scheduler written in C.
+It uses a Directed Acyclic Graph (DAG) to model task dependencies and a pool of pthread workers to run shell commands in parallel. Think of it as a minimal, C-native version of Apache Airflow—perfect for systems where you need fine-grained control, low overhead, and a simple shell interface.
 
 ---
 
