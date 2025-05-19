@@ -235,5 +235,5 @@ printf "%s\n" \
 
 ## License
 
-This project is licensed under the [https://github.com/AtluriNikhil/GraphTasker/blob/main/LICENSE](LICENSE).
+This project is licensed under the [LICENSE](https://github.com/AtluriNikhil/GraphTasker/blob/main/LICENSE).
 Feel free to use, modify, and distribute under its terms.
